@@ -1,0 +1,50 @@
+/** @format */
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	color: #db3eb1;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #41b6e6;
+	text-decoration-color: #41b6e6;
+	font-style: italic;
+}
+.wrapper {
+	height: 100vh;
+	display: grid;
+}
+.center-wrapper {
+	align-self: center;
+	justify-self: center;
+}
+button.miami {
+	background-color: #41b6e6 !important;
+	border-color: #52a7c9 !important;
+	margin-top: 10px;
+}
+.badge {
+	cursor: pointer;
+}
+.badge-danger {
+	color: #f85858;
+	font-size: 20px;
+	padding: 0px;
+}
+.action_button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: #dc3eb1;
+	color: white;
+	padding: 15px 40px;
+	font-size: 16px;
+	border: 2px solid #e184c7;
+	cursor: pointer;
+}
+.action_button.btn_2 {
+	right: 200px;
+}
